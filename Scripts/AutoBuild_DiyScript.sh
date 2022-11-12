@@ -4,11 +4,11 @@
 
 Firmware_Diy_Core() {
 
-	Author=AUTO
-	Author_URL=AUTO
+	Author=xqxwjj
+	Author_URL=www.xinsite.top
 	Default_Flag=AUTO
-	Default_IP="192.168.1.1"
-	Default_Title="Powered by AutoBuild-Actions"
+	Default_IP="192.168.6.2"
+	Default_Title="Powered by xqxwjj
 
 	Short_Fw_Date=true
 	x86_Full_Images=false
@@ -67,10 +67,30 @@ EOF
 		AddPackage svn apps minieap immortalwrt/packages/branches/openwrt-18.06/net
 		AddPackage git lean luci-app-argon-config jerrykuku master
 		AddPackage git other OpenClash vernesong master
-		AddPackage git other luci-app-ikoolproxy iwrt main
-		AddPackage git other helloworld fw876 master
-		AddPackage git themes luci-theme-neobird thinktip main
-		AddPackage git other luci-app-smartdns pymumu lede
+		AddPackage git other luci-app-fileassistant kenzok8/small-package		
+		AddPackage git other luci-app-ikoolproxy kenzok8/small-package
+		AddPackage git other luci-app-oaf kenzok8/small-package
+		AddPackage git other oaf kenzok8/small-package
+		AddPackage git other open-app-filter kenzok8/small-package
+		AddPackage git other luci-app-openclash kenzok8/small-package		
+		AddPackage git other luci-app-store kenzok8/small-package		
+		AddPackage git other luci-app-control-weburl kenzok8/small-package
+		AddPackage git other luci-app-control-timewol kenzok8/small-package
+		AddPackage git other luci-app-usb3disable kenzok8/small-package
+		AddPackage git other luci-app-timecontrol kenzok8/small-package
+		AddPackage git other luci-app-ssr-plus kenzok8/small-package		
+		AddPackage git other smartdns kenzok8/small-package		
+		AddPackage git other luci-app-smartdns kenzok8/small-package
+		AddPackage git other luci-app-socat kenzok8/small-package
+		AddPackage git other luci-app-pushbot kenzok8/small-package
+		AddPackage git other luci-app-serverchan kenzok8/small-package
+		AddPackage git other luci-app-poweroff kenzok8/small-package
+		AddPackage git other luci-app-passwall2 kenzok8/small-package
+		AddPackage git other luci-app-passwall kenzok8/small-package
+		AddPackage git other luci-app-onliner kenzok8/small-package
+		AddPackage git other luci-app-ddnsto kenzok8/small-package
+		AddPackage git other ddnsto kenzok8/small-package
+		AddPackage git other ngrokc kenzok8/small-package
 
 		case "${TARGET_BOARD}" in
 		ramips)
